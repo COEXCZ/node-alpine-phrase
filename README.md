@@ -47,7 +47,7 @@ New version will be released, tagged and pushed into Docker hub with current tag
 #### Manually
 
 ```docker
-docker build --no-cache --pull -t node-alpine:v1.x.x .
-docker tag node-alpine:v1.x.x coexcz/node-alpine-phrase:v1.x.x
+docker build --no-cache --pull -t node-alpine-phrase:v1.x.x .
+docker tag node-alpine-phrase:v1.x.x coexcz/node-alpine-phrase:v1.x.x
 docker push coexcz/node-alpine-phrase:v1.x.x
 ```
