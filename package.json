@@ -1,0 +1,14 @@
+{
+  "name": "node-alpine-phrase",
+  "version": "0.0.0",
+  "description": "Phrase CLI Docker Image",
+  "repository": "git@github.com:COEXCZ/node-alpine-phrase.git",
+  "author": "BART! <bart@bartweb.cz>",
+  "license": "MIT",
+  "scripts": {
+    "release:patch": "git checkout master && npm version patch -m \"chore(update): patch release %s 🐛 \"",
+    "release:minor": "git checkout master && npm version minor -m \"chore(update): release %s 🚀\"",
+    "release:major": "git checkout master && npm version major -m \"chore(update): major release %s 💥 \"",
+    "postversion": "git push && git push --follow-tags"
+  }
+}
