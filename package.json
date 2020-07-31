@@ -1,6 +1,6 @@
 {
   "name": "node-alpine-phrase",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Phrase CLI Docker Image",
   "repository": "git@github.com:COEXCZ/node-alpine-phrase.git",
   "author": "BART! <bart@bartweb.cz>",
