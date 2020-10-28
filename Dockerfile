@@ -1,6 +1,6 @@
-FROM coexcz/node-alpine
+FROM coexcz/node-alpine:latest
 
-ENV VERSION 2.0.12
+ENV VERSION 2.0.14
 
 LABEL author="Lukas Bartak"
 LABEL maintainer="bart@bartweb.cz"
